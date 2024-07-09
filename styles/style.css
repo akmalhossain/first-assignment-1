@@ -16,12 +16,13 @@
 }
 
 body {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* max-width: 1440px; */
 }
 
 main {
     margin: 0 150px;
+    margin: 0 auto;
     max-width: 1440px;
 }
 
@@ -100,6 +101,7 @@ margin-top:32px ;
 
 /* header Logo and button style :start */
 header {
+    margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -107,12 +109,13 @@ header {
 }
 
 .logo-btn {
+    
     padding: 36px 150px 36px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    max-width: 1440px;
+    
 }
 
 .logo {
@@ -141,11 +144,15 @@ header {
     line-height: 26px;
 }
 
-
+button > a{
+    text-decoration: none;
+    color: white;
+}
 /* banner sectio end */
 /* why web development section style */
 .why-web-dev {
     padding: 80px 97px;
+    margin: 0 150px;
 }
 
 .why-web-dev>p {
@@ -162,6 +169,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .help-mordern-web{
     margin-top: 32px;
@@ -184,3 +192,36 @@ header {
 }
 
 /* why web development section end */
+
+/* My inspiration section :start */
+
+.my-inspiration{
+    
+    margin: 90px 150px;
+}
+.my-inspiration > p{
+    margin: 24px 0 48px 0;
+    padding: 0px 97px;
+}
+.video-container{
+    border: 1px solid rgba(13, 19, 33, 20%);
+    border-radius: 16px;
+    text-align: center ;
+    height: 614px;
+    padding: 32px;
+}
+.video-container > iframe{
+    border-radius:16px ;
+    height: 100%;
+    width: 100%;
+}
+/* My inspiration section end */
+
+/* footer style */
+#footer-navigation{
+    background-color:rgba(13, 19, 33, 3%) ;
+    padding: 32px 150px;
+    text-align: left;
+    line-height:0% ;
+}
+/* footer style end*/
