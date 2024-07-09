@@ -15,19 +15,30 @@
     padding: 0;
 }
 
+body {
+    margin: 0 auto;
+    /* max-width: 1440px; */
+}
+main{
+    margin: 0 150px;
+    max-width: 1440px;
+}
 /* Common or shared style start */
 .body-lr-margin {
     margin: 0 150px;
 }
 
 .btn-primary {
-    padding: 24px 21px;
+    margin-top: 32px;
+    padding: 20px 24px;
     background-color: #0D1321;
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
+    /* letter-spacing: 2px; */
+    font-family: Azeret mono;
 }
 
 .btn-secondary {
@@ -43,28 +54,77 @@
 
 .primary-color {
     color: rgba(13, 19, 33, 100%);
-
 }
 
 .secondary-color {
     color: rgba(13, 19, 33, 70%);
-    /* color: #0d132180 */
-
 }
-
+.body-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.body-paragraph{
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 24px;
+    line-height: 26px;
+}
+.align-center{
+    text-align: center;
+}
 /* Common or shared style end */
 
-/* Logo and button style :start */
-.logo-btn{
-    margin-top: 50px;
+/* header Logo and button style :start */
+header{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-btn {
+    padding: 36px 150px 36px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: white;
+    max-width: 1440px;
 }
-.logo{
+
+.logo {
     font-size: 28px;
     font-weight: bolder;
+}
+
+/* Logo style end */
+/* banner sectio :start */
+.banner{
+    text-align: center;
+    padding: 26px;
+}
+.hero-txt{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin-top: 32px;
 
 }
-/* Logo style end */
+.hero_para{
+    margin-top: 24px;
+    text-align: center;
+    line-height: 26px;
+}
+.btn-primary{
+    
+}
+/* banner sectio end */
+/* why web development section style */
+.why-web-dev{
+    padding: 80px 97px;
+}
+.why-web-dev p {
+    
+    margin: 24px;
+}
+/* why web development section end */
