@@ -19,10 +19,12 @@ body {
     margin: 0 auto;
     /* max-width: 1440px; */
 }
-main{
+
+main {
     margin: 0 150px;
     max-width: 1440px;
 }
+
 /* Common or shared style start */
 .body-lr-margin {
     margin: 0 150px;
@@ -46,10 +48,21 @@ main{
     background-color: white;
     color: #0D1321;
     border: 1px solid #0D1321;
-    ;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;
+}
+.btn-learn-mor{
+padding: 12px 20px;
+border: 1px solid #0D1321;
+font-size: 20px;
+font-weight: 500;
+font-family: Azeret Mono;
+line-height: 15px;
+background-color: white;
+color: #0D1321;
+margin-top:32px ;
+
 }
 
 .primary-color {
@@ -59,24 +72,34 @@ main{
 .secondary-color {
     color: rgba(13, 19, 33, 70%);
 }
-.body-heading{
+
+.body-heading {
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
 }
-.body-paragraph{
+
+.body-heading-secondary {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 70%);
+}
+
+.body-paragraph {
     font-size: 16px;
     color: #0D1321;
-    margin-top: 24px;
     line-height: 26px;
 }
-.align-center{
+
+.align-center {
     text-align: center;
 }
+
 /* Common or shared style end */
 
 /* header Logo and button style :start */
-header{
+header {
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -99,32 +122,65 @@ header{
 
 /* Logo style end */
 /* banner sectio :start */
-.banner{
+.banner {
     text-align: center;
     padding: 26px;
 }
-.hero-txt{
+
+.hero-txt {
     font-size: 48px;
     font-weight: 800;
     line-height: 68px;
     margin-top: 32px;
 
 }
-.hero_para{
+
+.hero_para {
     margin-top: 24px;
     text-align: center;
     line-height: 26px;
 }
-.btn-primary{
-    
-}
+
+
 /* banner sectio end */
 /* why web development section style */
-.why-web-dev{
+.why-web-dev {
     padding: 80px 97px;
 }
-.why-web-dev p {
-    
-    margin: 24px;
+
+.why-web-dev>p {
+
+    margin: 24px 0 48px 0;
 }
+
+/* .content {
+    
+} */
+
+.coding-container {
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.help-mordern-web{
+    margin-top: 32px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row-reverse;
+}
+.coding-container2{
+    margin-top: 32px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content > p {
+    margin-top: 16px;
+}
+
 /* why web development section end */
