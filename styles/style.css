@@ -5,21 +5,22 @@
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
     font-style: normal;
-  }
-  /* font style code end */
+}
 
-  /* all margin padding zero */
-  *{
+/* font style code end */
+
+/* all margin padding zero */
+* {
     margin: 0;
     padding: 0;
-  }
+}
 
-  /* Common or shared style start */
-  .body-margin{
+/* Common or shared style start */
+.body-lr-margin {
     margin: 0 150px;
-  }
-  
-  .btn-primary{
+}
+
+.btn-primary {
     padding: 24px 21px;
     background-color: #0D1321;
     color: white;
@@ -27,23 +28,43 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;
-  }
-  .btn-secondary{
-    padding: 24px 21px;
-    /* background-color: #0D1321; */
+}
+
+.btn-secondary {
+    padding: 17px 24px;
+    background-color: white;
     color: #0D1321;
-    border: 1px solid #0D1321;;
+    border: 1px solid #0D1321;
+    ;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;
-  }
- .primary-color{
+}
+
+.primary-color {
     color: rgba(13, 19, 33, 100%);
 
- }
- .secondary-color{
+}
+
+.secondary-color {
     color: rgba(13, 19, 33, 70%);
     /* color: #0d132180 */
 
- }
-  /* Common or shared style end */
+}
+
+/* Common or shared style end */
+
+/* Logo and button style :start */
+.logo-btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+/* Logo style end */
