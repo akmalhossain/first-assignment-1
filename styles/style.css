@@ -42,6 +42,7 @@ main {
     font-weight: 600;
     /* letter-spacing: 2px; */
     font-family: Azeret mono;
+    cursor: pointer;
 }
 
 .btn-secondary {
@@ -52,6 +53,7 @@ main {
     border-radius: 8px;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .btn-learn-mor {
@@ -64,6 +66,7 @@ main {
     background-color: white;
     color: #0D1321;
     margin-top: 32px;
+    cursor: pointer;
 
 }
 
@@ -74,6 +77,8 @@ main {
     font-family: Azeret mono;
     border: none;
     background: none;
+    cursor: pointer;
+    
 
 }
 
@@ -111,6 +116,9 @@ main {
 
 .align-center {
     text-align: center;
+}
+a:hover{
+    cursor: pointer;
 }
 
 /* Common or shared style end */
@@ -160,12 +168,9 @@ header {
     line-height: 26px;
 }
 
-button>a {
-    text-decoration: none;
-    color: white;
-}
 
 /* banner sectio end */
+
 /* why web development section style */
 .why-web-dev {
     padding: 80px 97px;
@@ -308,18 +313,20 @@ button>a {
 .support>p {
     color: white;
     margin-top: 16px;
-    te
 }
 
 .text-field {
-    max-width: 548px;
     margin-top: 24px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+}
+
+form>input {
+
+    margin: 0 auto;
 }
 
 .suggestion-field {
+    width: 548px;
+    max-width: 548px;
     margin: 0 auto;
     width: 60%;
     padding: 19px 20px;
@@ -337,8 +344,6 @@ button>a {
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-
-
 }
 
 /* support section style end */
@@ -347,8 +352,14 @@ button>a {
 #footer-navigation {
     background-color: rgba(13, 19, 33, 3%);
     padding: 32px 150px;
-    text-align: left;
     line-height: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-box img{
+    width: 36px;
+    
 }
 
 /* footer style end*/
