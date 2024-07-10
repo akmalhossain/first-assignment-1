@@ -15,11 +15,6 @@
     padding: 0;
 }
 
-body {
-    /* margin: 0 auto; */
-    /* max-width: 1440px; */
-}
-
 main {
     margin: 0 150px;
     margin: 0 auto;
@@ -51,6 +46,7 @@ main {
     color: #0D1321;
     border: 1px solid #0D1321;
     border-radius: 8px;
+    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
@@ -114,7 +110,8 @@ main {
 .align-center {
     text-align: center;
 }
-a:hover{
+
+a:hover {
     cursor: pointer;
 }
 
@@ -148,10 +145,7 @@ header {
 /* banner sectio :start */
 .banner {
     text-align: center;
-    padding: 26px;
-}
-.banner button {
-    margin-bottom: 48px;
+    padding: 45px;
 }
 
 .hero-txt {
@@ -159,7 +153,6 @@ header {
     font-weight: 800;
     line-height: 68px;
     margin-top: 32px;
-
 }
 
 .hero_para {
@@ -174,7 +167,8 @@ header {
 /* why web development section style */
 .why-web-dev {
     padding: 80px 97px;
-    margin: 0 150px;
+    margin: 74px 150px;
+    background-color: rgba(13, 19, 33, 2%);
 }
 
 .why-web-dev>p {
@@ -182,16 +176,14 @@ header {
     margin: 24px 0 48px 0;
 }
 
-/* .content {
-    
-} */
 
 .coding-container {
     padding: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    border-radius: 16px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 255, 255, 100%));
 }
 
 .help-mordern-web {
@@ -201,6 +193,8 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-flow: row-reverse;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 255, 255, 100%));
 }
 
 .coding-container2 {
@@ -209,7 +203,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    border-radius: 16px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 255, 255, 100%));
 }
 
 .content>p {
@@ -225,7 +220,7 @@ header {
     margin: 90px 150px;
 }
 
-.my-inspiration>p {
+.my-inspiration > p {
     margin: 24px 0 48px 0;
     padding: 0px 97px;
 }
@@ -248,11 +243,11 @@ header {
 
 /* start my terget section style */
 
-.my-terget {
-    margin: 90px 150px;
+.my-target {
+    margin: 60px 150px;
 }
 
-.my-terget>p {
+.my-target>p {
     margin: 24px 0 48px 0;
     padding: 0px 97px;
 }
@@ -262,6 +257,7 @@ header {
     gap: 24px;
     margin-top: 60px;
 }
+
 /* .terget-container p{
     font-size: 15px;
 } */
@@ -272,6 +268,7 @@ header {
     border-radius: 16px;
     width: 33.33%;
 }
+
 /* .in-one line{
     display: block;
 } */
@@ -287,7 +284,7 @@ header {
     width: 33.33%;
 }
 
-.cssbox > button {
+.cssbox>button {
     margin-top: 24px;
 }
 
@@ -297,7 +294,8 @@ header {
     border-radius: 16px;
     width: 33.33%;
 }
-.javascript-box > button {
+
+.javascript-box>button {
     margin-top: 24px;
 }
 
@@ -371,9 +369,10 @@ form>input {
     justify-content: space-between;
     align-items: center;
 }
-.icon-box img{
+
+.icon-box img {
     width: 36px;
-    
+
 }
 
 /* footer style end*/
