@@ -53,17 +53,33 @@ main {
     font-size: 20px;
     font-weight: 500;
 }
-.btn-learn-mor{
-padding: 12px 20px;
-border: 1px solid #0D1321;
-font-size: 20px;
-font-weight: 500;
-font-family: Azeret Mono;
-line-height: 15px;
-background-color: white;
-color: #0D1321;
-margin-top:32px ;
 
+.btn-learn-mor {
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Azeret Mono;
+    line-height: 15px;
+    background-color: white;
+    color: #0D1321;
+    margin-top: 32px;
+
+}
+
+.btn-learn-mor-underline {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Azeret mono;
+    border: none;
+    background: none;
+
+}
+
+.btn-learn-mor-underline a {
+    color: #0D1321;
+    text-decoration: underline;
 }
 
 .primary-color {
@@ -109,13 +125,13 @@ header {
 }
 
 .logo-btn {
-    
+
     padding: 36px 150px 36px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    
+
 }
 
 .logo {
@@ -144,10 +160,11 @@ header {
     line-height: 26px;
 }
 
-button > a{
+button>a {
     text-decoration: none;
     color: white;
 }
+
 /* banner sectio end */
 /* why web development section style */
 .why-web-dev {
@@ -171,7 +188,8 @@ button > a{
     align-items: center;
 
 }
-.help-mordern-web{
+
+.help-mordern-web {
     margin-top: 32px;
     padding: 48px;
     display: flex;
@@ -179,15 +197,17 @@ button > a{
     align-items: center;
     flex-flow: row-reverse;
 }
-.coding-container2{
+
+.coding-container2 {
     margin-top: 32px;
     padding: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.content > p {
+
+.content>p {
     margin-top: 16px;
 }
 
@@ -195,33 +215,99 @@ button > a{
 
 /* My inspiration section :start */
 
-.my-inspiration{
-    
+.my-inspiration {
+
     margin: 90px 150px;
 }
-.my-inspiration > p{
+
+.my-inspiration>p {
     margin: 24px 0 48px 0;
     padding: 0px 97px;
 }
-.video-container{
+
+.video-container {
     border: 1px solid rgba(13, 19, 33, 20%);
     border-radius: 16px;
-    text-align: center ;
+    text-align: center;
     height: 614px;
     padding: 32px;
 }
-.video-container > iframe{
-    border-radius:16px ;
+
+.video-container>iframe {
+    border-radius: 16px;
     height: 100%;
     width: 100%;
 }
+
 /* My inspiration section end */
 
+/* start my terget section style */
+
+.my-terget {
+    margin: 90px 150px;
+}
+
+.my-terget>p {
+    margin: 24px 0 48px 0;
+    padding: 0px 97px;
+}
+.terget-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 60px;
+}
+
+.html-box {
+    background-color: rgba(255, 76, 30, 5%);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.html-box>button {
+    margin-top: 24px;
+}
+
+.cssbox {
+    background-color: rgba(0, 76, 232, 5%);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.cssbox>button {
+    margin-top: 24px;
+}
+.javascript-box{
+    background-color: rgba(255, 223, 0, 5%);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.terget-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #0D1321;
+    margin: 24px 0 8px 0;
+}
+
+/* start my terget section style */
+/* support section style :start */
+.support{
+    margin: 90px 150px;
+    background-image: url(../assets/handshake.jpg);
+    padding: 64px 48px;
+
+}
+.support > h2{
+    color: white;
+}
+/* support section style end */
+
 /* footer style */
-#footer-navigation{
-    background-color:rgba(13, 19, 33, 3%) ;
+#footer-navigation {
+    background-color: rgba(13, 19, 33, 3%);
     padding: 32px 150px;
     text-align: left;
-    line-height:0% ;
+    line-height: 0%;
 }
+
 /* footer style end*/
