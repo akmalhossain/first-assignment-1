@@ -313,9 +313,11 @@ header {
 .support {
     margin: 90px 150px;
     background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 64px 228px;
     border-radius: 16px;
-
 }
 
 .support>h2 {
