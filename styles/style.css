@@ -67,7 +67,6 @@ main {
     color: #0D1321;
     margin-top: 32px;
     cursor: pointer;
-
 }
 
 .btn-learn-mor-underline {
@@ -78,8 +77,6 @@ main {
     border: none;
     background: none;
     cursor: pointer;
-    
-
 }
 
 .btn-learn-mor-underline a {
@@ -152,6 +149,9 @@ header {
 .banner {
     text-align: center;
     padding: 26px;
+}
+.banner button {
+    margin-bottom: 48px;
 }
 
 .hero-txt {
@@ -262,12 +262,19 @@ header {
     gap: 24px;
     margin-top: 60px;
 }
+/* .terget-container p{
+    font-size: 15px;
+} */
 
 .html-box {
     background-color: rgba(255, 76, 30, 5%);
     padding: 40px;
     border-radius: 16px;
+    width: 33.33%;
 }
+/* .in-one line{
+    display: block;
+} */
 
 .html-box>button {
     margin-top: 24px;
@@ -277,9 +284,10 @@ header {
     background-color: rgba(0, 76, 232, 5%);
     padding: 40px;
     border-radius: 16px;
+    width: 33.33%;
 }
 
-.cssbox>button {
+.cssbox > button {
     margin-top: 24px;
 }
 
@@ -287,6 +295,10 @@ header {
     background-color: rgba(255, 223, 0, 5%);
     padding: 40px;
     border-radius: 16px;
+    width: 33.33%;
+}
+.javascript-box > button {
+    margin-top: 24px;
 }
 
 .terget-title {
