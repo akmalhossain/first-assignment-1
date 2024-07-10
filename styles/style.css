@@ -142,7 +142,7 @@ header {
 }
 
 /* Logo style end */
-/* banner sectio :start */
+/* banner section start */
 .banner {
     text-align: center;
     padding: 45px;
@@ -162,12 +162,13 @@ header {
 }
 
 
-/* banner sectio end */
+/* banner section end */
 
 /* why web development section style */
 .why-web-dev {
     padding: 80px 97px;
     margin: 74px 150px;
+    border-radius: 16px;
     background-color: rgba(13, 19, 33, 2%);
 }
 
@@ -220,7 +221,7 @@ header {
     margin: 90px 150px;
 }
 
-.my-inspiration > p {
+.my-inspiration>p {
     margin: 24px 0 48px 0;
     padding: 0px 97px;
 }
@@ -258,9 +259,6 @@ header {
     margin-top: 60px;
 }
 
-/* .terget-container p{
-    font-size: 15px;
-} */
 
 .html-box {
     background-color: rgba(255, 76, 30, 5%);
@@ -268,10 +266,6 @@ header {
     border-radius: 16px;
     width: 33.33%;
 }
-
-/* .in-one line{
-    display: block;
-} */
 
 .html-box>button {
     margin-top: 24px;
@@ -307,6 +301,7 @@ header {
 }
 
 /* start my terget section style */
+
 /* support section style :start */
 .support {
     margin: 90px 150px;
@@ -317,7 +312,8 @@ header {
     padding: 64px 228px;
     border-radius: 16px;
 }
-.overlay{
+
+.overlay {
     background-color: #0D1321;
 }
 
@@ -375,7 +371,6 @@ form>input {
 
 .icon-box img {
     width: 36px;
-
 }
 
 /* footer style end*/
