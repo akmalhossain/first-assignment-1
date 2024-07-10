@@ -251,7 +251,8 @@ button>a {
     margin: 24px 0 48px 0;
     padding: 0px 97px;
 }
-.terget-container{
+
+.terget-container {
     display: flex;
     gap: 24px;
     margin-top: 60px;
@@ -276,7 +277,8 @@ button>a {
 .cssbox>button {
     margin-top: 24px;
 }
-.javascript-box{
+
+.javascript-box {
     background-color: rgba(255, 223, 0, 5%);
     padding: 40px;
     border-radius: 16px;
@@ -291,15 +293,54 @@ button>a {
 
 /* start my terget section style */
 /* support section style :start */
-.support{
+.support {
     margin: 90px 150px;
     background-image: url(../assets/handshake.jpg);
-    padding: 64px 48px;
+    padding: 64px 228px;
+    border-radius: 16px;
 
 }
-.support > h2{
+
+.support>h2 {
     color: white;
 }
+
+.support>p {
+    color: white;
+    margin-top: 16px;
+    te
+}
+
+.text-field {
+    max-width: 548px;
+    margin-top: 24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.suggestion-field {
+    margin: 0 auto;
+    width: 60%;
+    padding: 19px 20px;
+    border: none;
+    border-radius: 8px;
+    font-family: Azeret Mono;
+}
+
+.btn-submit {
+    padding: 15px 20px;
+    margin-left: 0px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
 /* support section style end */
 
 /* footer style */
